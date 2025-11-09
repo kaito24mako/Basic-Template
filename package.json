@@ -1,7 +1,7 @@
 {
-  "name": "template-repository",
+  "name": "",
   "version": "1.0.0",
-  "description": "A general template repository according to the Revisiting Webpack section of The Odin Project.",
+  "description": "",
   "main": "index.js",
   
   "scripts": {
@@ -17,7 +17,7 @@
   },
 
   "keywords": [],
-  "author": "",
+  "author": "Kaito Watanabe",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kaito24mako/Template-Repository/issues"
