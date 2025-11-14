@@ -24,9 +24,8 @@ Live Server: http://localhost:8080/
 
 Checklist when initiating new project:
 - Update Files
-	• Edit package.json → change:
-	    • name → todo-list
-	    • description, author, etc.
+	• Edit package.json:
+	    • name, description, author, etc.
 	• Check Webpack entry in webpack.common.js or webpack.config.js
 - Structure Code
 	•	Keep src/index.js as entry
