@@ -1,7 +1,9 @@
 # Basic Template
-A general template repository according to the Revisiting Webpack section of The Odin Project. 
 
-## Skills 
+A general template repository according to the Revisiting Webpack section of The Odin Project.
+
+## Skills
+
 **HTML and CSS**
 
 **JavaScript**
@@ -17,29 +19,30 @@ Live Server: http://localhost:8080/
 - Run < git checkout gh-pages && git merge main --no-edit > to change branch and sync your changes from main so that you’re ready to deploy.
 - Now let’s bundle our application into dist with your build command. For now, that’s < npx webpack >.
 - Now there are a few more commands. Run each of these in order:
-    - < git add dist -f && git commit -m "Deployment commit" >
-    - < git subtree push --prefix dist origin gh-pages >
-    - < git checkout main >
+  - < git add dist -f && git commit -m "Deployment commit" >
+  - < git subtree push --prefix dist origin gh-pages >
+  - < git checkout main >
 - Recall that the source branch for GitHub Pages is set in your repository’s settings. Get this changed to the gh-pages branch. That should be everything!
 
 Checklist when initiating new project:
+
 - Update Files
-	• Edit package.json:
-	    • name, description, author, etc.
-	• Check Webpack entry in webpack.common.js or webpack.config.js
+  • Edit package.json:
+  • name, description, author, etc.
+  • Check Webpack entry in webpack.common.js or webpack.config.js
 - Structure Code
-	•	Keep src/index.js as entry
-	•	Create new folders in src 
-	•	Import modules in index.js
+  • Keep src/index.js as entry
+  • Create new folders in src
+  • Import modules in index.js
 - Clean & Verify
-	•	Run npm install
-	•	Run npm start → confirm dev server works
-	•	Commit base setup → git add . && git commit -m "Setup ToDo List base from template"
+  • Run npm install
+  • Run npm start → confirm dev server works
+  • Commit base setup → git add . && git commit -m "Setup ToDo List base from template"
 - Optional
-	•	Update ESLint/Prettier configs (if included)
+  • Update ESLint/Prettier configs (if included)
 
 Scripts:
+
 - npm start → develop and test locally
 - npm run build → bundle for production (creates fresh /dist)
 - npm run deploy → push the new /dist to GitHub Pages
-
